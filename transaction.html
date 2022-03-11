@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <script src="https://kit.fontawesome.com/a31a09e6d5.js" crossorigin="anonymous"></script>
+  <title>We Deliver</title>
+</head>
+<body>
+  <section class="side-bar">
+    <div class="logo">
+        <img height='60px' src="/willdeliverlogo.png" alt="logo">
+    </div>  
+    <div class="side-bar-list">
+      <ul>
+        <li id="mail"><a href="/index.html"><i class="fa-solid fa-envelopes-bulk"></i>Mailbox</a></li>
+        <li id="schedule"><a href='#' ><i class="fa-solid fa-calendar-days"></i>Schedule</a></li>
+        <li id="user"><a href="/usermanagement.html" ><i class="fa-solid fa-user"></i>User Management</a></li>
+        <li id="load" ><a href="/loadmanagement.html"><i class="fa-solid fa-truck-ramp-box"></i>Load Management</a></li>
+        <li id="truck"><a href="/truckmanagement.html" ><i class="fa-solid fa-truck"></i>Truck Management</a></li>
+        <li id="transaction"style= 'background-color:rgb(157, 158, 158)'><a href="/transaction.html"style='color:#fff'  ><i class="fa-solid fa-coins"></i>Transaction</a></li>
+        <li id="config"><a href="/configuration.html" ><i class="fa-solid fa-gears"></i>Configuration</a></li>
+      </ul>
+    </div>
+</section>
+<main>
+  <header>
+    <div class="user-options">
+      <i class="fa-solid fa-inbox"></i>
+      <img height='60px' src="/id photo.png" alt="user">
+      <p>Keric Mcdonald</p>
+      <i class="fa-solid fa-angle-down"></i>
+    </div>
+  </header>
+  <section class="main-body">
+    <div class="sub-dashboard">
+      <h2>
+        transactions
+      </h2>
+    </div>
+    <div class="user-sub-dashboard">
+      <div class="search-bar"><input type="text"placeholder="search">
+      </div>
+      <div class="search-by-dropdown">
+        <label for="search by">search by...</label>
+        <select name="search by" id="search-by">
+          <option value="name">name</option>
+          <option value="email">email</option>
+        <select>
+      </div>
+      <div class="filter-by-dropdown">
+        <label for="filter by">filter by...</label>
+        <select name="filter by" id="filter-by">
+          <option value="enable">enable</option>
+          <option value="disable">disable</option>
+        <select>
+      </div>
+      <div class="filter-by-role-dropdown">
+        <label for="filter by role">search by...</label>
+        <select name="filter by role" id="filter-by-role">
+          <option value="admin">admin</option>
+          <option value="truck owner">truck owner</option>
+          <option value="shipperer">shipper</option>
+          <option value="driver">driver</option>
+        <select>
+      </div>
+  </div>
+  <div class="add-user">
+      <button type="button"><i class="fa-solid fa-user-plus"></i>add user</button> 
+  </div>
+  <div class="user-section">
+    <div class="user-header">
+      <p>first name</p>
+      <p>last name</p>
+      <p>user id</p>
+      <p>phone number</p>
+      <p>role</p>
+      <p>status</p>
+    </div>
+    <div class="user-list">
+      <div class="single-user">
+        <img height='60px'src="/id photo.png" alt="user">
+        <p>Keric</p>
+        <p>McDonald</p>
+        <p>kericmcdonald@gmail.com</p>
+        <p>18763726608</p>
+        <p>admin</p>
+        <p>active</p>
+      </div>
+    </div>
+  </div>
+  </section>
+</main>
+</body>
+</html>
