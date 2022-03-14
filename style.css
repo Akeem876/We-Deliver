@@ -19,6 +19,7 @@ main {
   margin-left: 300px;
   height: 100vh;
   position: relative;
+  overflow-x: hidden;
 }
 
 /* navigation */
@@ -320,4 +321,116 @@ select {
   border-radius: 3px;
   border: none;
   background: #f3f3f3;
+}
+/* user list */
+.user-section {
+  margin: 50px 0px;
+}
+.user-header {
+  width: 76%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.user-header p {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+.user-header-name {
+  display: flex;
+  gap: 15px;
+}
+.user-list {
+  width: 95% !important;
+  margin: 20px auto;
+}
+.single-user {
+  background-color: #fff;
+  display: flex;
+  font-size: 0.8rem;
+  padding: 8px 15px;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+  border-radius: 4px;
+}
+.user-name {
+  display: flex;
+  gap: 50px;
+}
+.single-user img {
+  border-radius: 50%;
+}
+.user-list i {
+  color: #555555;
+  font-size: 1rem;
+}
+/* load management */
+.load-man-sub-dash {
+  width: 50%;
+}
+.load-man-icons {
+  display: flex;
+  gap: 15px;
+}
+.load-man-header {
+  width: 70%;
+  margin-left: 70px;
+}
+.load-man-list {
+  width: 95%;
+}
+.load-man-section {
+  margin: 60px 0px;
+}
+.load-man-sub-dash .search-bar input {
+  padding: 0.3rem 0.5rem;
+  width: 120px;
+}
+
+/* truck management */
+.add-truck {
+  display: flex;
+  justify-content: end;
+  width: 80%;
+  margin: 20px auto;
+}
+.add-truck button {
+  padding: 0.3rem 0.6rem;
+  border: none;
+  outline: none;
+  background: #868d45;
+  border-radius: 2px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.add-truck button i {
+  margin-right: 7px;
+}
+.search-truck input[type="text"] {
+  width: 180px;
+}
+.truck-sub-dash {
+  width: 80%;
+}
+.documents-status {
+  font-size: 0.7rem;
+}
+
+.documents-status #valid {
+  background-color: #808a27;
+  color: #fff;
+  border-radius: 3px;
+  margin: 3px;
+  padding: 2px 4px;
+}
+.documents-status #expired {
+  background-color: #eed026;
+  color: #000;
+  border-radius: 3px;
+  margin: 3px;
+  padding: 2px 4px;
 }

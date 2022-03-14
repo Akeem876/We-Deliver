@@ -10,6 +10,7 @@
   <title>We Deliver</title>
 </head>
 <body>
+  <section class="whole-main-body">  
   <section class="side-bar">
     <div class="logo">
         <img height='60px' src="/willdeliverlogo.png" alt="logo">
@@ -28,6 +29,7 @@
 </section>
 <main>
   <header>
+    <i class="fa-solid fa-bars"></i>
     <div class="user-options">
       <i class="fa-solid fa-inbox"></i>
       <img height='60px' src="/id photo.png" alt="user">
@@ -41,58 +43,51 @@
         load management
       </h2>
     </div>
-    <div class="user-sub-dashboard">
+    <div class="user-sub-dashboard load-man-sub-dash">
       <div class="search-bar"><input type="text"placeholder="search">
       </div>
       <div class="search-by-dropdown">
-        <label for="search by">search by...</label>
         <select name="search by" id="search-by">
+          <option value="search by...">sort by...</option>
           <option value="name">name</option>
           <option value="email">email</option>
         <select>
       </div>
       <div class="filter-by-dropdown">
-        <label for="filter by">filter by...</label>
         <select name="filter by" id="filter-by">
+          <option value="filter by">filter by...</option>
           <option value="enable">enable</option>
           <option value="disable">disable</option>
         <select>
       </div>
-      <div class="filter-by-role-dropdown">
-        <label for="filter by role">search by...</label>
-        <select name="filter by role" id="filter-by-role">
-          <option value="admin">admin</option>
-          <option value="truck owner">truck owner</option>
-          <option value="shipperer">shipper</option>
-          <option value="driver">driver</option>
-        <select>
-      </div>
   </div>
-  <div class="add-user">
-      <button type="button"><i class="fa-solid fa-user-plus"></i>add user</button> 
-  </div>
-  <div class="user-section">
-    <div class="user-header">
-      <p>first name</p>
-      <p>last name</p>
-      <p>user id</p>
-      <p>phone number</p>
+  <div class="user-section load-man-section">
+    <div class="user-header load-man-header">
+      <p>type</p>
+      <p>REQUESTED PICKUP DATE & TIME</p>
+      <p>PICKUP LOCATION</p>
+      <p>drop-off location</p>
       <p>role</p>
       <p>status</p>
     </div>
-    <div class="user-list">
+    <div class="user-list load-man-list">
       <div class="single-user">
-        <img height='60px'src="/id photo.png" alt="user">
-        <p>Keric</p>
-        <p>McDonald</p>
-        <p>kericmcdonald@gmail.com</p>
-        <p>18763726608</p>
+        <p>Panel Van</p>
+        <p>2021 Dec 22 9:20 PM</p>
+        <p>B 6, Jamaica</p>
+        <p>Coopers Hill Rd, Jamaica</p>
         <p>admin</p>
         <p>active</p>
+        <div class="load-man-icons">
+        <i class="fa-solid fa-info"></i>
+        <i class="fa-solid fa-user-pen"></i>
+        <i class="fa-solid fa-trash-can"></i>
+      </div>
       </div>
     </div>
   </div>
   </section>
 </main>
+  </section>
 </body>
 </html>
