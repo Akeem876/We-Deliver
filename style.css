@@ -337,6 +337,7 @@ select {
   letter-spacing: 2px;
   font-size: 0.7rem;
   font-weight: 300;
+  width: 80px;
 }
 .user-header-name {
   display: flex;
@@ -377,8 +378,7 @@ select {
   gap: 15px;
 }
 .load-man-header {
-  width: 70%;
-  margin-left: 70px;
+  width: 75%;
 }
 .load-man-list {
   width: 95%;
@@ -433,4 +433,43 @@ select {
   border-radius: 3px;
   margin: 3px;
   padding: 2px 4px;
+}
+/* transactions */
+.transaction-sub-dash {
+  width: 90%;
+}
+.transaction-id-bar input {
+  width: 130px;
+}
+/* config */
+.config-modal {
+  background-color: #f1f1f1;
+  margin: 100px auto;
+  padding: 60px;
+  width: 70%;
+  border-radius: 5px;
+  box-shadow: #999999 2px 2px 25px 5px;
+}
+.config-modal p {
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #818181;
+  margin: 15px 0px;
+}
+.save {
+  margin-top: 30px;
+}
+.save button {
+  border: none;
+  background: #0f559b;
+  padding: 6px 12px;
+  color: #fff;
+  border-radius: 3px;
+}
+.config-modal input {
+  width: 100%;
+  padding: 4px 3px;
+  border: none;
+  border-radius: 3px;
 }
