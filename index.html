@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/style.css">
   <script src="https://kit.fontawesome.com/a31a09e6d5.js" crossorigin="anonymous"></script>
+  <script src="/app.js" defer></script>
   <title>We Deliver</title>
 </head>
 <body>
@@ -32,7 +33,22 @@
 </section>
 <main>
   <header>
-    <i class="fa-solid fa-bars"></i>
+    <div class="dropdown" data-dropdown>
+      <button class="ham-butt" data-dropdown-button>
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="dropdown-items">
+        <ul>
+          <li id="mail"style= 'background-color:rgb(157, 158, 158)' ><a href="/index.html" style='color:#fff'><i class="fa-solid fa-envelopes-bulk"></i>Mailbox</a></li>
+          <li id="schedule"><a href='#' ><i class="fa-solid fa-calendar-days"></i>Schedule</a></li>
+          <li id="user"><a href="/usermanagement.html" ><i class="fa-solid fa-user"></i>User Management</a></li>
+          <li id="load"><a href="/loadmanagement.html" ><i class="fa-solid fa-truck-ramp-box"></i>Load Management</a></li>
+          <li id="truck"><a href="/truckmanagement.html" ><i class="fa-solid fa-truck"></i>Truck Management</a></li>
+          <li id="transaction"><a href="/transaction.html" ><i class="fa-solid fa-coins"></i>Transaction</a></li>
+          <li id="config"><a href="/configuration.html" ><i class="fa-solid fa-gears"></i>Configuration</a></li>
+        </ul>  
+      </div>
+    </div>
     <div class="user-options">
       <i class="fa-solid fa-inbox"></i>
       <img height='60px' src="/id photo.png" alt="user">

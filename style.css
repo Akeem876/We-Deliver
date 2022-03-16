@@ -23,6 +23,59 @@ main {
 }
 
 /* navigation */
+.dropdown {
+  position: relative;
+}
+.dropdown-items {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 2.2rem);
+  background-color: #fff;
+  padding: 15px;
+  width: 80vw;
+  border-radius: 5px;
+  box-shadow: 0 2px 12px 10px rgba(0, 0, 0, 0.116);
+  opacity: 0;
+  pointer-events: none;
+  transition: all ease 0.4s;
+}
+.dropdown-items li {
+  margin: 8px;
+  border-radius: 3px;
+  padding: 2px 12px;
+  transition: all ease 0.7s;
+}
+.dropdown-items li:hover {
+  background-color: rgb(202, 202, 202);
+}
+.dropdown-items li:hover a {
+  color: #fff;
+}
+.dropdown-items li a {
+  padding: 8px;
+  padding-right: 100%;
+  color: #000;
+}
+.dropdown button {
+  border: none;
+  outline: none;
+  color: #fff;
+  background: none;
+  padding: 8px 12px;
+  border-radius: 50%;
+  transition: all ease 0.3s;
+}
+.dropdown button:hover {
+  background: #9a9aff9d;
+}
+/* .dropdown button:focus + .dropdown-items {
+  opacity: 1;
+  pointer-events: all;
+} */
+.dropdown-items.active {
+  opacity: 1;
+  pointer-events: all;
+}
 .responsive-nav {
   height: 8vh;
 }
